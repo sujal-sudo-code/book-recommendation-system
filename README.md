@@ -19,6 +19,7 @@ The datasets used in this project are:
 - BX-Books.csv
 - BX-Users.csv
 - BX-Book-Ratings.csv
+- Link for dataset is - https://www.kaggle.com/datasets/ra4u12/bookrecommendation
 
 ## Usage
 1. Ensure you have the datasets (`BX-Books.csv`, `BX-Users.csv`, `BX-Book-Ratings.csv`) in the `Dataset` directory.
