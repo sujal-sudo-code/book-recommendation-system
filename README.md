@@ -41,11 +41,11 @@ The datasets used in this project are:
 - Generate book recommendations based on user input
 
 ## Evaluation Metrics
--The recommendation system evaluates its performance using the following metrics:
--Precision: Measures the accuracy of the recommendations.
--Recall: Measures the ability of the model to find all relevant items.
--F1 Score: The harmonic mean of precision and recall.
--Accuracy: The percentage of correct recommendations made by the system.
+- The recommendation system evaluates its performance using the following metrics:
+- Precision: Measures the accuracy of the recommendations.
+- Recall: Measures the ability of the model to find all relevant items.
+- F1 Score: The harmonic mean of precision and recall.
+- Accuracy: The percentage of correct recommendations made by the system.
 
 
 ## Contributing
