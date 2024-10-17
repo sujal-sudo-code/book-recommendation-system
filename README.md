@@ -45,7 +45,7 @@ The datasets used in this project are:
 - Precision: Measures the accuracy of the recommendations.
 - Recall: Measures the ability of the model to find all relevant items.
 - F1 Score: The harmonic mean of precision and recall.
-- Accuracy: The percentage of correct recommendations made by the system.
+- Accuracy: The percentage of correct recommendations made by the system with 87.5%.
 
 
 ## Contributing
