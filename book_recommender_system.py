@@ -268,21 +268,3 @@ tp, fp, tn, fn = calculate_confusion_matrix_at_k(k=450)
 plot_confusion_matrix(tp, fp, tn, fn, k=450)
 
 
-from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-import matplotlib.pyplot as plt
-
-data = load_iris()
-X = data.data
-y = data.target
-
-model = DecisionTreeClassifier()
-model.fit(X, y)
-
-plt.figure(figsize=(12, 8))
-plot_tree(model, filled=True, feature_names=data.feature_names, 
-           class_names=data.target_names.tolist(), rounded=True)  
-plt.title("Decision Tree Visualization")
-plt.show()
-
-
