@@ -8,8 +8,8 @@ A Book Recommendation System using collaborative filtering to suggest books base
 - [Usage](#usage)
 - [Features](#features)
 - [Model Training](#model-training)
+- [Evaluation Metrics](#evaluation-metrics)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project builds a book recommendation system using a dataset of books, users, and ratings. It employs collaborative filtering to suggest books similar to those a user has rated highly.
@@ -39,6 +39,13 @@ The datasets used in this project are:
 - Build a sparse matrix and apply Nearest Neighbors algorithm
 - Save and load the trained model and data
 - Generate book recommendations based on user input
+
+## Evaluation Metrics
+-The recommendation system evaluates its performance using the following metrics:
+-Precision: Measures the accuracy of the recommendations.
+-Recall: Measures the ability of the model to find all relevant items.
+-F1 Score: The harmonic mean of precision and recall.
+-Accuracy: The percentage of correct recommendations made by the system.
 
 
 ## Contributing
